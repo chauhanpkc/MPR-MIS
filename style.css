@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
 }
+.sidebar-design{
+    background-color: #343a40;
+}
 .main-page{
     background-color: #c1d1f3;
 }
 .heading-center{
     text-align: center;
+    margin-right: 294px;
 }
 .info-icon{
     cursor: pointer;

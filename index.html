@@ -164,13 +164,25 @@
                         <textarea class="form-control mb-2 w-75" id="" rows="1"></textarea>
                         </div>
                     </div>
-                    <div class="">
+                    <div class="mb-2">
                         <label for="" class="fw-bolder">9. Number of inter-caste marriages (where one spouse belongs to a Scheduled Caste and the other is non-SC/ST) for which incentive amount paid</label>
                         <textarea class="form-control w-75" id="" rows="1"></textarea>
                     </div>
-                    <div class="">
+                    <div class="mb-2">
                         <label for="" class="fw-bolder">10. Any Other Relevant Information which the State Government/Union Territory Administration may wish to furnish </label>
-                        <textarea class="form-control mt-4 w-75" id="" rows="1"></textarea>
+                        <textarea class="form-control w-75" id="" rows="1"></textarea>
+                    </div>
+                    <div class="">
+                        <label for="" class="fw-bolder">11. Extra Documents</label>
+                        <div class="d-flex">
+                            <div class="mt-1">
+                                <button style="display:block;" onclick="document.getElementById('getFile').click()" class="form-control" value="Upload">Upload</button>
+                                <input type='file' id="getFile" style="display:none">
+                            </div>
+                            <div class="m-1">
+                                <input type="button" value="Add More +" class="btn btn-primary form-control fw-bolder">
+                            </div>
+                    </div>
                     </div>
                     <div class="col-md-4 mt-2">
                         <button type="submit" class="mb-4 form-control btn btn-success w-25">Submit</button>
